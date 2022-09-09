@@ -12,7 +12,7 @@ Bed<-read.table("CSE.bed.50KB")
 Bed<-toGRanges(Bed, header=FALSE)
 
 Triats <- read.table("ARS_CNV.bed",header=FALSE) 
-###ARS_CNV.bed is the file of copy number variable regions(CNVR) which diownloaded from Animal Omics Database (AOD)
+###ARS_CNV.bed is the file of copy number variable regions(CNVR) which were downloaded from Animal Omics Database (AOD)
 
 Triats <-toGRanges(Triats,header=FALSE)
 
